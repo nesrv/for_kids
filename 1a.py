@@ -36,4 +36,5 @@ while ok:
   
 
     pygame.display.update()
+    clock.tick(100).display.update()
     clock.tick(100)
