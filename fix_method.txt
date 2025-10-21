@@ -1,0 +1,15 @@
+ИСПРАВЛЕНИЕ ОШИБКИ:
+
+НЕПРАВИЛЬНО:
+FindFirstChildWichIsA
+
+ПРАВИЛЬНО:
+FindFirstChildWhichIsA
+
+Пример использования:
+local humanoid = character:FindFirstChildWhichIsA("Humanoid")
+local part = workspace:FindFirstChildWhichIsA("Part")
+
+Или используйте более простые методы:
+FindFirstChild("имя")
+WaitForChild("имя")
